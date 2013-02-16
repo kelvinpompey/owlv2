@@ -167,8 +167,10 @@ section:nth-child(4) {
 }
 
 section:nth-child(5) {
-	margin-top: 20px;
+	margin-top: 88px;
 	background-color: rgba(51, 51, 51, 0.16);
+	border-radius: 6px;
+
 }
 
 section:nth-child(5) > * {
@@ -193,7 +195,7 @@ h2 {
 
 #whoweare p {
 	width: 384px;
-	font-family: ArialMT;
+	font-family: ArialMT, Arial;
 	color: #f3f3f3;
 	font-size: 14px;	
 
@@ -237,6 +239,8 @@ h2 {
 	padding: 25px;	
 }
 
+
+
 .imagelist li.left {
 	background: url('../img/carousel-left-btn.png') no-repeat; 
 	display: inline-block;
@@ -262,5 +266,74 @@ h2 {
 #copyright {
 	margin: 0;
 	padding: 0;
+}
+
+#copyright li {
+	font-family: HelveticaNeue;
+	color: #666666;
+	font-size: 12px;	
+}
+
+
+
+#copyright li:nth-child(2) span {
+	font-family: HelveticaNeue;
+	color: #b5b5b5;
+	font-size: 12px;	
+}
+
+
+.footermenu {
+	font-family: HelveticaNeue;
+	color: #a9a9a9;
+	font-size: 12px;
+	text-transform: uppercase;	
+}
+
+#contactmenu li {
+	text-align: right;
+	margin-bottom: 10px;
+}
+
+#callus {
+	font-family: Rockwell;
+	color: #4f4f4f;
+	font-size: 24px;
+	height: 24px;
+	text-transform: uppercase;	
+}
+
+#phone {
+	font-family: HelveticaNeue;
+	color: #aaaaaa;
+	font-size: 39px;
+	height: 39px;
+	text-transform: uppercase;	
+}
+
+#followus {
+	font-family: Rockwell;
+	color: #4f4f4f;
+	font-size: 24px;
+	height: 24px;
+	text-transform: uppercase;	
+}
+
+.footerimagelist {
+	margin: 0;
+	padding: 0;
+}
+.footerimagelist li{
+	list-style-type: none;
+	display: inline;
+	margin: 0px;
+	padding: 2px;
+	
+
+}
+
+.footerimagelist li img {
+	padding: 0; 
+
 }
 
