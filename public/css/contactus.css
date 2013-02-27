@@ -1,124 +1,20 @@
-#main {
-  margin-top: 100px;
-  padding-top: 38px;
-  padding-left: 0px;
-  padding-bottom: 0px;
-  padding-right: 0px;
-  width: 786px;
-  min-height: 538px;
-  min-width: 786px;
-  background-color: #050a11;
-  -webkit-border-radius: 12px;
-  border-radius: 12px;
-}
-#main form input[type=text] {
-  padding: 10px;
-  width: 400px;
-  background-color: rgba(255,255,255,0.1);
-  border-style: none;
-}
-#main form input[type=submit] {
-  float: right;
-  margin-right: 50px;
-  border-style: none;
-  padding: 10px;
-  background-color: #00c1f3;
-  color: #fff;
-  text-transform: uppercase;
-  -webkit-border-radius: 6px;
-  border-radius: 6px;
-}
-#main form textarea {
-  padding: 10px;
-  width: 400px;
-  height: 170px;
-  background-color: rgba(255,255,255,0.1);
-  border-style: none;
-}
-#contactus {
-  margin-top: 0px;
-  width: 786px;
-}
-#contactus h2 {
-  margin-left: 50px;
-}
-#contactus #closebutton {
-  background: url("../img/close.png") no-repeat 50px 0px;
-  border: none;
-}
-#contactus > * {
-  padding: 0px;
-  margin: 0;
-  margin-top: 40px;
-}
-#contactus ul.list {
-  text-transform: uppercase;
-}
-#contactus ul.list li {
-  background-color: rgba(255,255,255,0.1);
-  color: #fff;
-  -webkit-border-radius: 6px;
-  border-radius: 6px;
-  font-size: 12px;
-  width: 170px;
-  height: 30px;
-  margin-top: 5px;
-  margin-left: 50px;
-  padding-top: 10px;
-  text-align: center;
-}
-#contactus ul.list li img {
-  padding: 0;
-}
-#contactus ul.list li .launchbutton {
-  margin-top: 10px;
-  padding: 10px;
-  text-align: center;
-  background-color: rgba(255,255,255,0.1);
-  -webkit-border-radius: 6px;
-  border-radius: 6px;
-}
-#contactus ul.list li .launchbutton:hover {
-  color: #00c2f3;
-}
-#contactus ul#footerlist li {
-  background-color: transparent;
-}
-#contactus ul#footerlist li:nth-child(2) {
-  font-family: Rockwell;
-  color: #00c2f3;
-  font-size: 32px;
-  text-transform: uppercase;
-}
-#contactus ul#footerlist li:nth-child(3) {
-  font-family: Rockwell;
-  color: #00c2f3;
-  font-size: 14px;
-  text-transform: uppercase;
-}
-#quote {
-  padding-bottom: 70px;
-  border-bottom: dotted 1px #6b6b6b;
-}
-#getquote {
-  margin-top: 100px;
-  width: 430px;
-  padding-left: 140px;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  font-family: Rockwell;
-  color: #00c2f3;
-  font-size: 36px;
-  background-color: rgba(0,0,0,0.18);
-  -webkit-border-radius: 14px;
-  border-radius: 14px;
-}
-#getquote #text {
-  width: 230px;
-  margin-top: 20px;
-  float: left;
-}
-#footer {
-  margin-top: 30px;
-  padding-top: 0px;
-}
+#main{margin-top:100px;padding-top:38px;padding-left:0;padding-bottom:0;padding-right:0;width:786px;min-height:538px;min-width:786px;background-color:#050a11;-webkit-border-radius:12px;border-radius:12px;}
+#main form input[type=text]{padding:10px;width:400px;background-color:rgba(255,255,255,0.1);border-style:none}
+#main form input[type=submit]{float:right;margin-right:50px;border-style:none;padding:10px;background-color:#00c1f3;color:#fff;text-transform:uppercase;-webkit-border-radius:6px;border-radius:6px}
+#main form textarea{padding:10px;width:400px;height:170px;background-color:rgba(255,255,255,0.1);border-style:none}
+#contactus{margin-top:0;width:786px;}
+#contactus h2{margin-left:50px}
+#contactus #closebutton{background:url("../img/close.png") no-repeat 50px 0;border:none}
+#contactus > *{padding:0;margin:0;margin-top:40px}
+#contactus ul.list{text-transform:uppercase;}
+#contactus ul.list li{background-color:rgba(255,255,255,0.1);color:#fff;-webkit-border-radius:6px;border-radius:6px;font-size:12px;width:170px;height:30px;margin-top:5px;margin-left:50px;padding-top:10px;text-align:center;}
+#contactus ul.list li img{padding:0}
+#contactus ul.list li .launchbutton{margin-top:10px;padding:10px;text-align:center;background-color:rgba(255,255,255,0.1);-webkit-border-radius:6px;border-radius:6px;}
+#contactus ul.list li .launchbutton:hover{color:#00c2f3}
+#contactus ul#footerlist li{background-color:transparent}
+#contactus ul#footerlist li:nth-child(2){font-family:Rockwell;color:#00c2f3;font-size:32px;text-transform:uppercase}
+#contactus ul#footerlist li:nth-child(3){font-family:Rockwell;color:#00c2f3;font-size:14px;text-transform:uppercase}
+#quote{padding-bottom:70px;border-bottom:dotted 1px #6b6b6b}
+#getquote{margin-top:100px;width:430px;padding-left:140px;padding-top:50px;padding-bottom:50px;font-family:Rockwell;color:#00c2f3;font-size:36px;background-color:rgba(0,0,0,0.18);-webkit-border-radius:14px;border-radius:14px}
+#getquote #text{width:230px;margin-top:20px;float:left}
+#footer{margin-top:30px;padding-top:0}

@@ -50,3 +50,11 @@ h2{color:#00c2f3;font-size:32px;text-transform:uppercase;font-family:Rockwell}
 .item3{margin-left:70px;margin-right:0;}
 .item3 img{margin-left:20px;margin-right:20px}
 a.carousel-control{background-color:#06a2cb}
+#dialog{background-color:#050a11;border:none;}
+#dialog .list{clear:both}
+#dialog #contactoptions li {background-color: rgba(255, 255, 255, 0.1); border-radius: 8px; width: 100px }
+#dialog h1{color:#00c2f3;display:block;float:left;font-family:Rockwell;font-size:32px}
+#dialog form input[type=text]{width:95%;background-color: rgba(255, 255, 255, 0.1);border-radius: 8px; border:none }
+#dialog form textarea {width:95%;background-color: rgba(255, 255, 255, 0.1);border-radius: 8px; border: none}
+
+
