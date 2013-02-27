@@ -1,0 +1,81 @@
+#whoweare p {
+  width: 85%;
+  font-family: ArialMT, Arial;
+  color: #f3f3f3;
+  font-size: 14px;
+}
+#main {
+  margin-top: 100px;
+  padding-top: 68px;
+  padding-left: 33px;
+  padding-bottom: 204px;
+  padding-right: 63px;
+  width: 846px;
+  min-height: 538px;
+  min-width: 846px;
+  background-color: rgba(0,0,0,0.56);
+  -webkit-border-radius: 12px;
+  border-radius: 12px;
+}
+#whatwedo {
+  margin-top: 125px;
+}
+#whatwedo > * {
+  padding-left: 10px;
+  margin-left: 10px;
+}
+#whatwedo ul.list {
+  width: 200px;
+}
+#whatwedo ul.list li {
+  font-size: 12px;
+}
+#whatwedo #description {
+  margin-left: 150px;
+  font-family: ArialMT;
+  color: #f3f3f3;
+  font-size: 14px;
+  width: 320px;
+  height: 208px;
+}
+#backbone {
+  width: 143px;
+  height: 143px;
+  float: left;
+}
+#backbone img {
+  display: block;
+  padding: 30px;
+  background-color: rgba(255,255,255,0.1);
+  -webkit-border-radius: 12px;
+  border-radius: 12px;
+  margin-top: 60px;
+  margin-left: 100px;
+  margin-right: 60px;
+}
+#quote {
+  padding-bottom: 70px;
+  border-bottom: dotted 1px #6b6b6b;
+}
+#getquote {
+  margin-top: 0px;
+  width: 430px;
+  padding-left: 140px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-family: Rockwell;
+  color: #00c2f3;
+  font-size: 36px;
+  background-color: rgba(0,0,0,0.18);
+  -webkit-border-radius: 14px;
+  border-radius: 14px;
+}
+#getquote #text {
+  width: 230px;
+  margin-top: 20px;
+  float: left;
+}
+#footer {
+  margin-top: 30px;
+  padding-top: 0px;
+}
