@@ -13,6 +13,7 @@
             console.log(main.html());         
             
             new ui.Dialog({title: 'Contact Us', message: main }).show().closable();
+            $(".close").html("<img src='img/close.png'/>"); 
 
             
         });        
