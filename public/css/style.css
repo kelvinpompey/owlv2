@@ -1,6 +1,12 @@
 @font-face{font-family:"HelveticaNeue";src:url("../fonts/HelveticaNeue.ttf") format('truetype')}
 @font-face{font-family:"Rockwell";src:url("../fonts/Rockwell.ttf") format('truetype')}
-body{background-color:#000;background:url("../img/wave.jpg") no-repeat;color:#c0c0c0;font-family:HelveticaNeue}
+body{
+    background-color:#c0c0c0;
+    background:url("../img/wave-small.jpeg") no-repeat;color:#c0c0c0;
+    background-size: 1920px 1671px;  
+    font-family:HelveticaNeue;
+    height: 1256px;
+}
 .list li{margin:0;padding:0;list-style-type:none}
 .horizontalList li{margin:0;padding:0;list-style-type:none;display:inline}
 #topbar{text-transform:uppercase;color:#fff;font-size:10px;background-color:rgba(255,255,255,0.3);border-radius:6px;display:none}
@@ -28,7 +34,7 @@ h2{color:#00c2f3;font-size:32px;text-transform:uppercase;font-family:Rockwell}
 #whoweare p{width:384px;font-family:ArialMT,Arial;color:#f3f3f3;font-size:14px}
 #whoweare > *,#whatwedo > *{margin-left:20px}
 #whatwedo > *{margin-left:108px}
-#whatwedo li{padding-top:16px;padding-left:24px;padding-bottom:13px;padding-right:27px;width:188px;min-height:10px;min-width:188px;background-color:rgba(255,255,255,0.1);-webkit-border-radius:6px;-moz-border-radius:6px;-ms-border-radius:6px;-o-border-radius:6px;border-radius:6px;float:left;font-family:HelveticaNeue;font-size:12px;text-transform:uppercase;color:#fff;margin:2px}
+#whatwedo li{padding-top:16px;padding-left:24px;padding-bottom:13px;padding-right:10px;width:200px;min-height:10px;min-width:188px;background-color:rgba(255,255,255,0.1);-webkit-border-radius:6px;-moz-border-radius:6px;-ms-border-radius:6px;-o-border-radius:6px;border-radius:6px;float:left;font-family:HelveticaNeue;font-size:12px;text-transform:uppercase;color:#fff;margin:2px}
 .imagelist li{list-style-type:none;display:inline}
 .imagelist li img{padding:25px}
 .imagelist li.left{background:url("../img/carousel-left-btn.png") no-repeat;display:inline-block;height:31px;width:31px}
