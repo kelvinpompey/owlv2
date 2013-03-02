@@ -33,6 +33,7 @@ app.configure('development', function(){
 app.get('/', routes.index);
 app.get('/whoweare', routes.whoweare);
 app.get('/ourwork', routes.ourwork);
+app.get('/whatwedo', routes.whatwedo);
 app.get('/users', user.list);
 
 http.createServer(app).listen(app.get('port'), function(){
