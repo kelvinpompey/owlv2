@@ -140,6 +140,9 @@ a:hover {
     text-decoration: none;
 }
 
+a.active {
+    color:  #00c2f3;
+}
 
 
 

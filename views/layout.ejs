@@ -39,9 +39,15 @@
 			<nav class="span8" id="navmain">
 				<ul class="horizontalList">
 					<!-- <li><a href='/'>Home</a></li> -->
-					<li><a href="/whoweare">Who We Are</a></li>
-					<li><a href="/ourwork">Our Work</a></li>
-					<li><a href="/contactus.html">Contact</a></li>
+                    <% _.each(links, function(value, key) { %>
+                        <li><a href="<%= value.path %>" class="<%= value.active ? 'active' : '' %>"><%= value.content %></a></li>
+                    <% }); %>
+
+                    <!--
+					    <li><a href="/whoweare">Who We Are</a></li>
+					    <li><a href="/ourwork">Our Work</a></li>
+					    <li><a href="/contactus.html">Contact</a></li>
+                    -->
 				</ul>
 			</nav>
 		</section>
@@ -56,10 +62,15 @@
 			</ul>
 
 			<ul class="list span2 offset1 footermenu" id="">
+                <% _.each(links, function(value, key) { %>
+                    <li><a href="<%= value.path %>" class="<%= value.active ? 'active' : '' %>"><%= value.content %></a></li>
+                <% }); %>
+                <!--
 				<li><a href="/whoweare">Who we are</a></li>
 				<li><a href="/whoweare#whatwedo">What We Do</a></li>
 				<li><a href="/ourwork"/>Our Work</a></li>
 				<li><a href="/contactus.html">Contact</a></li>			
+                -->
 			</ul>
 
 			<ul class="list span1 footermenu">
