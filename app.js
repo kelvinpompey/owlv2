@@ -19,9 +19,9 @@ app.configure(function(){
   app.use(express.logger('dev'));
   app.use(express.bodyParser());
   app.use(express.methodOverride());
-
-  app.use(express.static(path.join(__dirname, 'public')));
   app.use(app.router);
+  app.use(express.static(path.join(__dirname, 'public')));
+  
 });
 
 app.configure('development', function(){
@@ -29,6 +29,8 @@ app.configure('development', function(){
 });
 
 app.get('/', routes.index);
+app.get('/whoweare', routes.whoweare);
+app.get('/ourwork', routes.ourwork);
 app.get('/users', user.list);
 
 http.createServer(app).listen(app.get('port'), function(){

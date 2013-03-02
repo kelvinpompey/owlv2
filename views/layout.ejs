@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+		<title>OceanWaveLabs</title>
+		<link rel="stylesheet" href="css/bootstrap.css" />
+        <link rel="stylesheet" href="css/ui.css" />
+        <link rel="stylesheet" href="css/style.css" />
+        
+        
+
+        <% stylesheets.forEach(function(stylesheet) { %>
+            <link rel="stylesheet" href="css/<%= stylesheet %>" />    
+        <% }); %>
+		<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+		<script src="js/bootstrap.js"></script>
+        <script src="js/ui.js"></script>
+        <script src="js/main.js"></script>
+
+	</head>
+	<body>
+		<div class="container">
+			
+		<section class="row">
+			<div class=" span2 offset8" id="topbar">
+				<ul class="horizontalList">
+					<li class="">
+						Client Area
+					</li>
+					<li>
+						Login
+					</li>
+				</ul>
+			</div>
+		</section>
+
+		<section class="row">
+			<a href='/'><div id="logo" class="span2"></div></a>
+
+			<nav class="span8" id="navmain">
+				<ul class="horizontalList">
+					<!-- <li><a href='/'>Home</a></li> -->
+					<li><a href="/whoweare">Who We Are</a></li>
+					<li><a href="/ourwork">Our Work</a></li>
+					<li><a href="/contactus.html">Contact</a></li>
+				</ul>
+			</nav>
+		</section>
+
+        <%- partial %>         
+
+		<section class="row" >
+			<ul class="list span2" id="copyright">
+				<li><img src='img/footer-logo.png' /></li>
+				<li>Copyright 2013 <span>OceanwaveLabs.</span></li>
+				<li>All Rights Reserved</li>
+			</ul>
+
+			<ul class="list span2 offset1 footermenu" id="">
+				<li><a href="/whoweare">Who we are</a></li>
+				<li><a href="/whoweare#whatwedo">What We Do</a></li>
+				<li><a href="/ourwork"/>Our Work</a></li>
+				<li><a href="/contactus.html">Contact</a></li>			
+			</ul>
+
+			<ul class="list span1 footermenu">
+				<li>FAQs</li>
+				<li>Blog</li>				
+			</ul>		
+
+			<ul class="list span1 footermenu">							
+				<li>Privacy</li>
+				<li>Terms</li>			
+				<li>Affiliates</li>
+			</ul>	
+
+			<ul class="list span3 footermenu" id="contactmenu">							
+				<li id="callus">Call Us Today</li>
+				<li id="phone">888.234.8765</li>			
+				<li id="followus">Follow Us</li>
+				<li>
+					<ul class="footerimagelist">
+						<li><img src="img/twiiter.png" /></li>
+						<li><img src="img/facebook.png" /></li>
+						
+						<li><img src="img/youtube.png" /></li>
+						<li><img src="img/rss.png" /></li>
+					</ul>
+				</li>
+			</ul>												
+		</section>
+
+		</div>		
+	</body>
+</html>
+
+				
+
+				
