@@ -17,6 +17,23 @@
 
             
         });        
+        
+        var animator = function()
+        {
+            console.log('this', this); 
+            $(this).addClass('animated wiggle'); 
+            var self = this; 
+            setTimeout(function(){
+                $(self).removeClass('animated wiggle');     
+            }, 600); 
+                
+        };
+        
+        $("#gobutton").click(animator);         
+        $("img[src='img/go-btn.png']").click(animator); 
+        
+        
+        
     }); 
 
     

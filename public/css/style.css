@@ -24,7 +24,30 @@ body{
 #innerbox{text-transform:none;margin-top:16px;padding-top:38px;padding-left:29px;padding-bottom:28px;padding-right:26px;width:392px;min-height:57px;min-width:392px;background-color:rgba(0,0,0,0.16);-webkit-border-radius:14px;-moz-border-radius:14px;-ms-border-radius:14px;-o-border-radius:14px;border-radius:14px;font-family:Georgia;font-style:italic;color:#fff;font-size:18px}
 #innerbox img{text-align:right}
 #innerbox p{margin-top:5px}
-#gobutton{background:url("../img/go-btn.png") no-repeat;height:57px;width:57px}
+
+#gobutton{
+    background:url("../img/go-btn.png") 
+    no-repeat;
+    height:57px;
+    width:57px; 
+    opacity: 0.9;
+    
+}
+
+#gobutton:hover {
+    opacity: 1.0; 
+}
+
+img[src='img/go-btn.png']:hover {
+    opacity: 1.0;            
+}
+
+img[src='img/go-btn.png'] {
+    opacity: 0.9; 
+}
+
+
+
 section:nth-child(2){margin-top:37px}
 section:nth-child(4){margin-top:90px}
 section:nth-child(5){margin-top:88px;background-color:rgba(51,51,51,0.16);border-radius:6px}
